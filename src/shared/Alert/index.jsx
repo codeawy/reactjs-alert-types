@@ -2,7 +2,6 @@ import { IoMdClose } from "react-icons/io";
 
 import "./Alert.scss";
 
-// ** Closed
 const Alert = ({
   classNameContainer = "alert-info",
   classNameTitle = "alert-title",

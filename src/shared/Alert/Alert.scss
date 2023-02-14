@@ -34,6 +34,7 @@ $successBorder: rgba(0, 255, 0, 0.322);
     margin-bottom: 1.5rem;
     max-width: 750px;
     margin: 0 auto 1.5rem;
+    // border:
 
     .alert-title {
       font-weight: 700;
@@ -41,10 +42,23 @@ $successBorder: rgba(0, 255, 0, 0.322);
       display: flex;
       align-items: center;
       margin-bottom: 0.8rem;
+      overflow-wrap: anywhere;
+      padding-right: 20px;
 
       svg {
-        margin-right: 0.3rem;
+        margin-right: 0.5rem;
       }
+    }
+
+    p:nth-child(2) {
+      font-size: 0.9rem;
+      font-weight: 500;
+      line-height: 1.5rem;
+    }
+
+    a {
+      color: #9499ff;
+      font-weight: 600;
     }
 
     .close {
