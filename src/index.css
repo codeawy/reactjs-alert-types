@@ -64,3 +64,11 @@
     background-color: #f9f9f9;
   }
 }
+
+.github-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  color: white;
+}

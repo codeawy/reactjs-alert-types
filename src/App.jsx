@@ -7,7 +7,11 @@ import Alert from "./shared/Alert";
 const App = () => {
   return (
     <div className="container">
-      <a href={"https://github.com/codeawy/reactjs-alert-types"} target="_blank">
+      <a
+        href={"https://github.com/codeawy/reactjs-alert-types"}
+        target="_blank"
+        className="github-icon"
+      >
         <BsGithub size={40} />
       </a>
       <Alert
