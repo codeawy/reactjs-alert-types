@@ -1,12 +1,15 @@
 import { BsInfoSquare } from "react-icons/bs";
 import { HiBellAlert } from "react-icons/hi2";
 import { VscError, VscWarning } from "react-icons/vsc";
-import { BsCheckAll } from "react-icons/bs";
+import { BsCheckAll, BsGithub } from "react-icons/bs";
 import Alert from "./shared/Alert";
 
 const App = () => {
   return (
     <div className="container">
+      <a href={"https://github.com/codeawy/reactjs-alert-types"} target="_blank">
+        <BsGithub size={40} />
+      </a>
       <Alert
         classNameContainer="alert-default"
         title="Upgrade your plan"
